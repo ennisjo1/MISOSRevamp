@@ -1,0 +1,33 @@
+  <div class="dropdown">
+      <button onclick="myFunction()" class="dropbtn">Elections</button>
+      <div id="myDropdown" class="dropdown-content">
+        <a href="https://www.michigan.gov/sos/elections">Election Rescources</a>
+        <a href="https://mvic.sos.state.mi.us/">Voter Center (Michigan.gov/Vote)</a>
+         <button onclick="myFunction()" class="dropbtn">How to vote in Michigan</button>
+          <a href="howtovote.html">How to Vote</a>
+        <a href="https://www.michigan.gov/sos/elections/election-fact-center">Elections Fact Center</a>
+        <a href="https://www.michigan.gov/sos#">Elections Results & Data</a>
+        <a href="https://www.michigan.gov/sos/elections/security">Election Security in Michigan</a>
+        <a href="https://www.michigan.gov/sos/elections/admin-info">Election Adminstrator Information</a>
+        <a href="https://www.michigan.gov/sos/elections/pollworker">Be a poll worker</a>
+        <a href="https://www.michigan.gov/sos/elections/michigan-business-united-for-elections">Michigan Business United for Elections</a>
+        <a href="https://www.michigan.gov/sos/elections/bsc">Board of State Canvassers</a>
+        <a href="https://www.michigan.gov/MICRC">Michigan Independent Citizens Redistricting Commission</a>
+        <a href="https://www.michigan.gov/sos/elections/admin-info">Voter Education Rescources</a>
+      </div>
+    </div>
+
+    <div class="navbar">
+        <a href="#home">Home</a>
+        <a href="#news">News</a>
+        <div class="dropdown">
+          <button class="dropbtn">Dropdown
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+            <a href="#">Link 1</a>
+            <a href="#">Link 2</a>
+            <a href="#">Link 3</a>
+          </div>
+        </div>
+      </div>

@@ -1,0 +1,67 @@
+#Navbar model 1 
+ <div class="dropdown">
+      <button onclick="myFunction()" class="dropbtn">Elections</button>
+      <div id="myDropdown" class="dropdown-content">
+        <a href="https://www.michigan.gov/sos/elections">Election Rescources</a>
+        <a href="https://mvic.sos.state.mi.us/">Voter Center (Michigan.gov/Vote)</a>
+         <button onclick="myFunction()" class="dropbtn">How to vote in Michigan</button>
+          <a href="howtovote.html">How to Vote</a>
+        <a href="https://www.michigan.gov/sos/elections/election-fact-center">Elections Fact Center</a>
+        <a href="https://www.michigan.gov/sos#">Elections Results & Data</a>
+        <a href="https://www.michigan.gov/sos/elections/security">Election Security in Michigan</a>
+        <a href="https://www.michigan.gov/sos/elections/admin-info">Election Adminstrator Information</a>
+        <a href="https://www.michigan.gov/sos/elections/pollworker">Be a poll worker</a>
+        <a href="https://www.michigan.gov/sos/elections/michigan-business-united-for-elections">Michigan Business United for Elections</a>
+        <a href="https://www.michigan.gov/sos/elections/bsc">Board of State Canvassers</a>
+        <a href="https://www.michigan.gov/MICRC">Michigan Independent Citizens Redistricting Commission</a>
+        <a href="https://www.michigan.gov/sos/elections/admin-info">Voter Education Rescources</a>
+      </div>
+    </div>
+#nav bar model 2
+    <div class="navbar">
+        <a href="#home">Home</a>
+        <a href="#news">News</a>
+        <div class="dropdown">
+          <button class="dropbtn">Dropdown
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+            <a href="#">Link 1</a>
+            <a href="#">Link 2</a>
+            <a href="#">Link 3</a>
+          </div>
+        </div>
+      </div>
+
+#h3 for mainpage
+      <h3>Elections</h3>
+      <h3>Voting Center</h3>
+      <h3>Cadidacy Center</h3>
+      <h3>Admin/Volunteer Center</h3>
+      <h3>Michigan Tutorial Guides</h3>
+      <h3>Vote at home</h3>
+      <h3>Accessiblity Rescources</h3>
+      <h3>First Time Voter</h3>
+      <h3>Reach out</h3>
+      <h3>Schedule an In-person appointment</h3>
+      <h3>Schedule a Digital appointment</h3>
+      <h3>Write to an Election Offical</h3>
+      <h3>Additional Rescources</h3>
+      <h3>Follow us</h3>
+
+
+      <section id="Reachout">
+        <h4 class="Post_title">Reach out to the team</h4>
+        <fieldset class="email_form">
+          <form ><label>Name</label> <input type="text" id="input_1" name="titles"> </form>
+          <form><label>Email</label> <input type="text" id="input_2" name="Email"> </form>
+          <form><label>Open Comment</label> <input type="text" id="input_1" name="titles"> </form>
+          <form> <label>Resason for Contact</label><input type="checkbox" id="looking_to_say_hi" name="looking_to_say_hi"><label for="looking_to_say_hi">Looking to say Hi</label> <input type="checkbox" id ="Interested_in_interview" name="Interested_in_interview"><label for="Interested_in_interview">Interested in Interview</label><input type="checkbox" id="Looking_for_a_contractor" name="Looking_for_a_contractor"><label for="Looking_for_a_contractor">Looking for a contractor</label></form>
+          </form>
+          <button>Submit</button>
+        </fieldset>
+      </section>
+
+      Candidates - https://www.youtube.com/embed/thaX7RMiu6E?si=GN599G1Qbzvsp1Nq
+      Voter -https://www.youtube.com/watch?v=n483tnkddoE
+      Admin - https://www.youtube.com/embed/l6tC8LxRD9E?si=FuXopUDz_EiDxcpm

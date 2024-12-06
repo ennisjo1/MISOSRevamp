@@ -83,28 +83,70 @@ a{
 }
 
 .boxA{
-    background-color: #142D3E; color: #FFFFFF;  font-size: 37.5px;  padding-top:37.5px; padding-bottom:37.5px; margin-bottom: 37.5px; margin-top: 0px; max-height:200px;
+    background-color: #142D3E; color: #FFFFFF;  font-size: 37.5px;  padding-top:37.5px; padding-bottom:37.5px; margin-bottom: 37.5px; margin-top: 0px; max-height:200px;border-radius: 10px;
 }
 .boxB{
-    background-color: #142D3E; color: #FFFFFF;  font-size:37.5px;  padding-top:37.5px; padding-bottom:37.5px;margin-bottom: 37.5px; max-height:200px;
+    background-color: #142D3E; color: #FFFFFF;  font-size:37.5px;  padding-top:37.5px; padding-bottom:37.5px;margin-bottom: 37.5px; max-height:200px; border-radius: 10px;
 }
 .boxC{
-    background-color: #142D3E; color: #FFFFFF;  font-size:37.5px;  padding-top:37.5px; padding-bottom:37.5px; max-height:200px;
+    background-color: #142D3E; color: #FFFFFF;  font-size:37.5px;  padding-top:37.5px; padding-bottom:37.5px; max-height:200px; border-radius:10px;
 }
 .youtubevid{
     flex-grow:1.5;
     padding-right: 50px;
     max-width:1400px;
 }
+
 .contact_box{
     font-size: 20px;
-    flex-wrap:1;
-    gap:5%;
+    justify-content: center;
+    margin:15px;
 }
-.contact_box img{
-    width:75%;
-    height:75%;
-}
+
 .contact_menu{
-    display:flex
+    display:flex;
+    content:center;
+    max-width: 1020px;
+}
+.followus{
+    background-color: #142D3E;
+    color: #FFFFFF;
+    padding-top:25px;font-size: 25px;padding-bottom:25px;
+    display:flex;
+}
+.followus img{
+    width:40px;
+    height:40px;
+    padding-top:25px;font-size: 25px;padding-bottom:25px;padding-left: 20px;
+}
+.brokenbutton {
+    width: 30%;
+}
+
+#broken
+{
+    font-size: 40px;
+    text-align:center;
+}
+
+#nav{
+    position: sticky;
+    top: 0;
+}
+ul{
+    list-style-type: none;
+    margin:0;
+    padding:0;
+    overflow: hidden;
+    position: sticky;
+    top: 0;
+    background-color:#D9D9D9;
+ }
+
+li{
+  display:inline;
+  float:left;
+  font-size: 20px;
+  margin-left:15px;
+  list-style: none;
 }
